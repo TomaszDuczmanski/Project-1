@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class liczenie {
+    public static void main(String[] args) {
+        Scanner liczba = new Scanner(System.in);
+
+        System.out.println("Podaj pierwszą liczbę");
+        int a = liczba.nextInt();
+
+        System.out.println("Podaj drugą liczbę");
+        int b = liczba.nextInt();
+
+        System.out.println("Wynik dodawnia to: " + (a + b));
+        System.out.println("Wynik mnożenia to: " + (a*b));
+
+    }
+}
