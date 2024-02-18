@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Tomek {
+
+    public static void main(String[] args) {
+
+        Scanner zmienna = new Scanner(System.in);
+
+        System.out.println("Podaj kolor światła:");
+        String kolory = zmienna.nextLine();
+
+
+        if (kolory.equals("zielone")) {
+            System.out.println("jedź");
+        } else if (kolory.equals("czerwone")) {
+            System.out.println("stój");
+        } else if (kolory.equals("żółte")) {
+            System.out.println("przygotuj się do jazdy");
+        } else {
+            System.out.println("nie ma takiej odpowiedzi");}
+
+    }
+}
